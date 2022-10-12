@@ -7,21 +7,21 @@ const About = () => {
         <div className="row">
           <div className="col-6 p-25">
             <h3>About Us</h3>
-            <h1>WELCOME TO MAESTRO PIZZINI</h1>
+            <h1>WELCOME TO Balana Restaurant</h1>
             <p>
-              Investigationes demonstraverunt lectores legere me lius quod ii
-              legunt saepius. Claritas est etiam processus dynaus, quise
-              sequitur mutationem consuetudium lectorum.
+              investigation's demonstraverunt lectors leger me li's quod ii
+              legume sardius. Caritas est team process's dyaus, quine sequitur
+              mutation's consuetudinal lectors.
             </p>
             <div className="about__btn">
-              <a href="" className="btn btn-smart">
+              <a href="about" className="btn btn-smart">
                 READ MORE
               </a>
             </div>
           </div>
           <div className="col-6">
             <div className="about__img">
-              <img src="/img/pizza.jpg" alt="Pizza" />
+              <img src="/img/bbq.jpg" alt="Barbie queue" />
             </div>
           </div>
         </div>

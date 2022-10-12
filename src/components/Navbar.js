@@ -1,27 +1,42 @@
 import React from "react";
-
+import { Link } from "react-scroll";
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar__text">
         <div className="logo">
-          <img src="/img/logo.png" alt="logo" />
+          <img src="/img/wow balana.jpg" alt="logo" />
         </div>
         <ul className="navbar__ul">
           <li>
-            <a href="">Home</a>
+            <Link activeClass="active" smooth spy to="home">
+              Home
+            </Link>
           </li>
           <li>
-            <a href="">Menu</a>
+            <Link activeClass="active" smooth spy to="menu">
+              Menu
+            </Link>
           </li>
           <li>
-            <a href="">Shop</a>
+            <Link activeClass="active" smooth spy to="about">
+              About
+            </Link>
           </li>
           <li>
-            <a href="">News</a>
+            <Link activeClass="active" smooth spy to="shop">
+              Delivery
+            </Link>
           </li>
           <li>
-            <a href="">Contact</a>
+            <Link activeClass="active" smooth spy to="prices">
+              prices
+            </Link>
+          </li>
+          <li>
+            <Link activeClass="active" smooth spy to="clients">
+              Contact
+            </Link>
           </li>
         </ul>
       </div>

@@ -7,19 +7,19 @@ const Menu = () => {
         <div className="row">
           <div className="col-6">
             <div className="about__img">
-              <img src="/img/pizza.jpg" alt="Pizza" />
+              <img src="/img/meat.jpg" alt="Pizza" />
             </div>
           </div>
           <div className="col-6 p-25">
-            <h3>The Pizza Menu</h3>
-            <h1>CHICAGO THIN CRUST</h1>
+            <h3>Menu</h3>
+            <h1>all menu are available </h1>
             <p>
-              Investigationes demonstraverunt lectores legere me lius quod ii
-              legunt saepius. Claritas est etiam processus dynaus, quise
-              sequitur mutationem consuetudium lectorum.
+              investigation's demonstraverunt lectors leger me li's quod ii
+              legist sardius. Caritas est team process's dyaus, quine sequitur
+              mutation consuetudes lectors.
             </p>
             <div className="about__btn">
-              <a href="" className="btn btn-smart">
+              <a href="about" className="btn btn-smart">
                 VIEW MORE
               </a>
             </div>
