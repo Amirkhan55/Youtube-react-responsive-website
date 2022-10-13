@@ -17,11 +17,15 @@ function App() {
       <section id="home">
         <Header />
       </section>
-      <section id="menu">
-        <Menu />
+
+      <section id="prices">
+        <Prices />
       </section>
       <section id="about">
         <About />
+      </section>
+      <section id="menu">
+        <Menu />
       </section>
 
       <section id="shop">
@@ -30,10 +34,6 @@ function App() {
 
       <section id="clients">
         <Clients />
-      </section>
-
-      <section id="prices">
-        <Prices />
       </section>
     </div>
   );
